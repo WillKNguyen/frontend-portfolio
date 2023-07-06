@@ -5,7 +5,7 @@ function Sidebar(){
         <div className="sidebar">
             <div className='intro'>
                 <img src={profilepic} alt='profile_pic'></img>
-                <div>Hi! My name is Will Nguyen and I am a software engineer who graduated from the Univerity of Calgary's MEng program in May 2023. 
+                <div>Hi! My name is Will Nguyen and I am a software engineer who graduated from the University of Calgary's MEng program in May 2023. 
                     <p>I am proficient in multiple programming languages such as Java, Python, and JavaScript, and I am well-versed in various development frameworks and tools. My strengths lie in effective communication and thriving in collaborative team environments. </p>
                     <p>This website is a showcase of the front-end projects I have done while taking The Odin Project curriculum, where I learned HTML, CSS, Javascript, React.js, and Node.js</p>
                 </div>
