@@ -1,10 +1,10 @@
-import { ProjectList } from "../projects/Projects"
+import ProjectList from "../projects/Projects"
 import Card from "./Card"
 
 function Container(){
     return(
         <div className="container">
-            <h2>My Projects</h2>
+            <h2>My Projects (newest first)</h2>
             <div className="projects">
                 <div className="cards">
                     {ProjectList.map(({link, title, description}) => (

@@ -64,6 +64,9 @@ svg:hover{
 
 h2{
     padding-left: 15px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 .projects{
     grid-row: 2/3;

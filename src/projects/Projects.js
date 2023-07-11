@@ -1,6 +1,6 @@
 const domain = 'https://willknguyen.github.io/';
 
-export const ProjectList = [
+const ProjectList = [
     {
         link: domain + '/OdinProject/odin-recipes/index.html',
         title: 'Recipes Website',
@@ -76,4 +76,6 @@ export const ProjectList = [
         title: 'Frontend Portfolio',
         description: 'I redesigned this homepage using React components, rather than hard coding each HTML elements like previously. The sidebar and project list are all React components!'
     }
-]
+];
+
+export default ProjectList.reverse();
